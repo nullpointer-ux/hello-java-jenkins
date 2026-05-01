@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Your Docker Hub username
         DOCKER_HUB_USER = 'null123pointer'
-        APP_NAME = 'my-app'
+        APP_NAME = 'hello-app'
         IMAGE_TAG = "${env.BUILD_ID}" 
     }
 
